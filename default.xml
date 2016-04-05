@@ -18,6 +18,12 @@
            sync-c="true"
            sync-j="4" />
 
+<!-- BEGIN OTHER -->
+<project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" />
+<project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" />
+<project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" />
+<!-- END OTHER -->
+  
 <!-- BEGIN CYANOGENMOD -->
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
