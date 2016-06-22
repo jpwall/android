@@ -19,6 +19,7 @@
            sync-j="4" />
 
 <!-- BEGIN OTHER -->
+<project path="android" name="jpwall/android" />
 <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" />
 <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" />
 <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" />
@@ -28,7 +29,6 @@
   <project path="build" name="CyanogenMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="CyanogenMod/android" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
